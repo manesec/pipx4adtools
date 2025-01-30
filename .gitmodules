@@ -1,0 +1,3 @@
+[submodule "src/pyGPOAbuse"]
+	path = src/pyGPOAbuse
+	url = https://github.com/Hackndo/pyGPOAbuse
