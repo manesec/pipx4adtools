@@ -80,3 +80,63 @@ def start_petitpotam():
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
+
+# ntlm_theft
+def start_ntlm_theft():
+    script_path = Path(__file__).resolve().parent / "ntlm_theft" / "ntlm_theft.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
+# dementor.py
+def start_dementor():
+    script_path = Path(__file__).resolve().parent / "Dementor" / "dementor.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
+# LdapRelayScan
+def start_LdapRelayScan():
+    script_path = Path(__file__).resolve().parent / "LdapRelayScan" / "LdapRelayScan.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# targetedKerberoast
+def start_targetedKerberoast():
+    script_path = Path(__file__).resolve().parent / "targetedKerberoast" / "targetedKerberoast.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# PKINITtools : getnthash.py
+def start_getnthash():
+    script_path = Path(__file__).resolve().parent / "PKINITtools" / "getnthash.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
+# PKINITtools : gets4uticket.py
+def start_gets4uticket():
+    script_path = Path(__file__).resolve().parent / "PKINITtools" / "gets4uticket.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# PKINITtools : gettgtpkinit.py
+def start_gettgtpkinit():
+    script_path = Path(__file__).resolve().parent / "PKINITtools" / "gettgtpkinit.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
+# PassTheCert
+def start_passthecert():
+    script_path = Path(__file__).resolve().parent / "PassTheCert" / "Python" / "passthecert.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)

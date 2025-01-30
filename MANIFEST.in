@@ -5,3 +5,9 @@ recursive-include src/noPac *
 recursive-include src/wmiexec-Pro *
 recursive-include src/windapsearch *
 recursive-include src/PetitPotam *.py
+recursive-include src/ntlm_theft *
+recursive-include src/Dementor dementor.py
+recursive-include src/LdapRelayScan *
+recursive-include src/targetedKerberoast *.py
+recursive-include src/PKINITtools *
+recursive-include src/PassTheCert/Python *.py

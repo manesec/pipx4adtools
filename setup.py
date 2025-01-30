@@ -11,11 +11,18 @@ def install_requirements():
     all_requirements.extend(read_requirements('src/GPOwned/requirements.txt'))
     all_requirements.extend(read_requirements('src/wmiexec-Pro/requirements.txt'))
     all_requirements.extend(read_requirements('src/windapsearch/requirements.txt'))
+    all_requirements.extend(read_requirements('src/LdapRelayScan/requirements.txt'))
+    all_requirements.extend(read_requirements('src/targetedKerberoast/requirements.txt'))
+    all_requirements.extend(read_requirements('src/PKINITtools/requirements.txt'))
+
+    # ntlm_theft
+    all_requirements.append("xlsxwriter")
+
 
     return all_requirements
 
 setup(
-    name='pipx4tools',
+    name='pipx4adtools',
     version='0.0.2',
     packages=find_packages(),
     entry_points={
@@ -31,6 +38,14 @@ setup(
             'wmiexec-pro.py=src.start:start_wmiexec_pro',
             'windapsearch.py=src.start:start_windapsearch',
             'PetitPotam.py=src.start:start_petitpotam',
+            'ntlm_theft.py=src.start:start_ntlm_theft',
+            'dementor.py=src.start:start_dementor',
+            'LdapRelayScan.py=src.start:start_LdapRelayScan',
+            "targetedKerberoast.py=src.start:start_targetedKerberoast",
+            "getnthash.py=src.start:start_getnthash",
+            "gets4uticket.py=src.start:start_gets4uticket",
+            "gettgtpkinit.py=src.start:start_gettgtpkinit",
+            "passthecert.py=src.start:start_passthecert",
         ],
     },
     install_requires=install_requirements(),
@@ -41,7 +56,7 @@ setup(
     include_package_data=True,
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/manesec/spose-thread',
+    url='https://github.com/manesec/pipx4adtools',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

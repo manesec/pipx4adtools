@@ -19,3 +19,21 @@
 [submodule "src/PetitPotam"]
 	path = src/PetitPotam
 	url = https://github.com/topotam/PetitPotam/
+[submodule "src/ntlm_theft"]
+	path = src/ntlm_theft
+	url = https://github.com/Greenwolf/ntlm_theft.git
+[submodule "src/Dementor"]
+	path = src/Dementor
+	url = https://github.com/NotMedic/NetNTLMtoSilverTicket.git
+[submodule "src/LdapRelayScan"]
+	path = src/LdapRelayScan
+	url = https://github.com/zyn3rgy/LdapRelayScan
+[submodule "src/targetedKerberoast"]
+	path = src/targetedKerberoast
+	url = https://github.com/ShutdownRepo/targetedKerberoast
+[submodule "src/PKINITtools"]
+	path = src/PKINITtools
+	url = https://github.com/dirkjanm/PKINITtools
+[submodule "src/PassTheCert"]
+	path = src/PassTheCert
+	url = https://github.com/AlmondOffSec/PassTheCert
