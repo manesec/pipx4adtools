@@ -1,0 +1,7 @@
+recursive-include src/pyGPOAbuse *
+recursive-include src/GPOwned *
+recursive-include src/krbrelayx *
+recursive-include src/noPac *
+recursive-include src/wmiexec-Pro *
+recursive-include src/windapsearch *
+recursive-include src/PetitPotam *.py

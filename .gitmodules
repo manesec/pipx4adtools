@@ -1,3 +1,21 @@
 [submodule "src/pyGPOAbuse"]
 	path = src/pyGPOAbuse
 	url = https://github.com/Hackndo/pyGPOAbuse
+[submodule "src/GPOwned"]
+	path = src/GPOwned
+	url = https://github.com/X-C3LL/GPOwned.git
+[submodule "src/krbrelayx"]
+	path = src/krbrelayx
+	url = https://github.com/dirkjanm/krbrelayx.git
+[submodule "src/noPac"]
+	path = src/noPac
+	url = https://github.com/Ridter/noPac
+[submodule "src/wmiexec-Pro"]
+	path = src/wmiexec-Pro
+	url = https://github.com/XiaoliChan/wmiexec-Pro
+[submodule "src/windapsearch"]
+	path = src/windapsearch
+	url = https://github.com/ropnop/windapsearch
+[submodule "src/PetitPotam"]
+	path = src/PetitPotam
+	url = https://github.com/topotam/PetitPotam/
