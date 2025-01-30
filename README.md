@@ -50,7 +50,7 @@ $ pipx list
 Just simple command to remove all files on pipx.
 
 ```
-pipx uninstall pipx4tools
+pipx uninstall pipx4adtools
 ```
 
 
@@ -59,7 +59,7 @@ pipx uninstall pipx4tools
 remove it and install again.
 
 ```
-pipx uninstall pipx4tools
+pipx uninstall pipx4adtools
 rm -rf pipx4adtools
 git clone --recurse-submodules https://github.com/manesec/pipx4adtools pipx4adtools
 cd pipx4adtools
