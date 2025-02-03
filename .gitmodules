@@ -37,3 +37,9 @@
 [submodule "src/PassTheCert"]
 	path = src/PassTheCert
 	url = https://github.com/AlmondOffSec/PassTheCert
+[submodule "src/owa-emailextract"]
+	path = src/owa-emailextract
+	url = https://github.com/manesec/global-address-list-owa
+[submodule "src/ntlmscan"]
+	path = src/ntlmscan
+	url = https://github.com/nyxgeek/ntlmscan.git

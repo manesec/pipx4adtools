@@ -140,3 +140,18 @@ def start_passthecert():
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
+
+# owa emailextract
+def start_owamailextract():
+    script_path = Path(__file__).resolve().parent / "owa-emailextract" / "emailextract.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# ntlmscan
+def start_ntlmscan():
+    script_path = Path(__file__).resolve().parent / "ntlmscan" / "ntlmscan.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+

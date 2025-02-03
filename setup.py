@@ -18,6 +18,8 @@ def install_requirements():
     # ntlm_theft
     all_requirements.append("xlsxwriter")
 
+    # requests
+    all_requirements.append("requests")
 
     return all_requirements
 
@@ -46,6 +48,8 @@ setup(
             "gets4uticket.py=src.start:start_gets4uticket",
             "gettgtpkinit.py=src.start:start_gettgtpkinit",
             "passthecert.py=src.start:start_passthecert",
+            "emailextract.py=src.start:start_owamailextract",
+            "ntlmscan.py=src.start:start_ntlmscan",
         ],
     },
     install_requires=install_requirements(),
