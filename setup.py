@@ -21,6 +21,9 @@ def install_requirements():
     # requests
     all_requirements.append("requests")
 
+    # exchange proxyshell
+    all_requirements.append("pypsrp")
+
     return all_requirements
 
 setup(
@@ -48,8 +51,9 @@ setup(
             "gets4uticket.py=src.start:start_gets4uticket",
             "gettgtpkinit.py=src.start:start_gettgtpkinit",
             "passthecert.py=src.start:start_passthecert",
-            "emailextract.py=src.start:start_owamailextract",
-            "ntlmscan.py=src.start:start_ntlmscan",
+            "owa-emailextract.py=src.start:start_owamailextract",
+            "owa-ntlmscan.py=src.start:start_ntlmscan",
+            "owa-proxyshell.py=src.start:start_owaproxyshell",
         ],
     },
     install_requires=install_requirements(),

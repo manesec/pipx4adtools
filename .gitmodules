@@ -43,3 +43,6 @@
 [submodule "src/ntlmscan"]
 	path = src/ntlmscan
 	url = https://github.com/nyxgeek/ntlmscan.git
+[submodule "src/proxyshell"]
+	path = src/proxyshell
+	url = https://github.com/mr-r3bot/Proxyshell-Exchange

@@ -13,3 +13,4 @@ recursive-include src/PKINITtools *
 recursive-include src/PassTheCert/Python *.py
 recursive-include src/owa-emailextract *
 recursive-include src/ntlmscan *
+recursive-include src/proxyshell *
