@@ -155,7 +155,6 @@ def start_ntlmscan():
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
-
 # owa proxyshell
 def start_owaproxyshell():
     script_path = Path(__file__).resolve().parent / "proxyshell" / "proxyshell.py"
