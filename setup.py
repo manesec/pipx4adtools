@@ -54,6 +54,7 @@ setup(
             "owa-emailextract.py=src.start:start_owamailextract",
             "owa-ntlmscan.py=src.start:start_ntlmscan",
             "owa-proxyshell.py=src.start:start_owaproxyshell",
+            "getUserSIDBinary.py=src.start:start_GetUserSIDBinary",
         ],
     },
     install_requires=install_requirements(),

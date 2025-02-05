@@ -46,3 +46,6 @@
 [submodule "src/proxyshell"]
 	path = src/proxyshell
 	url = https://github.com/mr-r3bot/Proxyshell-Exchange
+[submodule "src/tools4mane"]
+	path = src/tools4mane
+	url = https://github.com/manesec/tools4mane
