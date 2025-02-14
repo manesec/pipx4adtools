@@ -162,10 +162,37 @@ def start_owaproxyshell():
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
-
 # tools4mane GetUserSIDBinary.py
 def start_GetUserSIDBinary():
     script_path = Path(__file__).resolve().parent / "tools4mane" / "Tools" / "GetUserSIDBinary.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# getftST
+def start_getftST():
+    script_path = Path(__file__).resolve().parent / "forest-trust-tools" / "getftST.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# getlocalsid
+def start_getlocalsid():
+    script_path = Path(__file__).resolve().parent / "forest-trust-tools" / "getlocalsid.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# gettrustinfo
+def start_gettrustinfo():
+    script_path = Path(__file__).resolve().parent / "forest-trust-tools" / "gettrustinfo.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# keytab
+def start_keytab():
+    script_path = Path(__file__).resolve().parent / "forest-trust-tools" / "keytab.py"
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)

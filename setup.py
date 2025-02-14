@@ -24,6 +24,9 @@ def install_requirements():
     # exchange proxyshell
     all_requirements.append("pypsrp")
 
+    # forest-trust-tools
+    all_requirements.append("frida")
+
     return all_requirements
 
 setup(
@@ -55,6 +58,11 @@ setup(
             "owa-ntlmscan.py=src.start:start_ntlmscan",
             "owa-proxyshell.py=src.start:start_owaproxyshell",
             "getUserSIDBinary.py=src.start:start_GetUserSIDBinary",
+            "forest-getftST.py=src.start:start_getftST",
+            "forest-getlocalsid.py=src.start:start_getlocalsid",
+            "forest-keytab.py=src.start:start_keytab",
+            "forest-gettrustinfo.py=src.start:start_gettrustinfo",
+
         ],
     },
     install_requires=install_requirements(),
