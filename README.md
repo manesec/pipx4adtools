@@ -16,8 +16,10 @@ pipx install git+https://github.com/manesec/pipx4adtools
 
 # sccm-ntlmrelayx
 pipx install git+https://github.com/manesec/pipx4adtools@relay-sccm
-```
 
+# tgssub
+pipx install git+https://github.com/manesec/pipx4adtools@tgssub
+```
 
 ## Tools
 
