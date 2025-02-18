@@ -52,3 +52,6 @@
 [submodule "src/forest-trust-tools"]
 	path = src/forest-trust-tools
 	url = https://github.com/dirkjanm/forest-trust-tools
+[submodule "src/LAPSDumper"]
+	path = src/LAPSDumper
+	url = https://github.com/n00py/LAPSDumper.git

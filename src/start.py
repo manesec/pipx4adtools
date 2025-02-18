@@ -6,7 +6,7 @@ def start_pygpoabuse():
     script_path = Path(__file__).resolve().parent / "pyGPOAbuse" / "pygpoabuse.py"
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
-    subprocess.run(command) 
+    subprocess.run(command)
 
 
 # GPOwned
@@ -193,6 +193,14 @@ def start_gettrustinfo():
 # keytab
 def start_keytab():
     script_path = Path(__file__).resolve().parent / "forest-trust-tools" / "keytab.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
+# laps dumper
+def start_lapsdumper():
+    script_path = Path(__file__).resolve().parent / "LAPSDumper" / "laps.py"
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)

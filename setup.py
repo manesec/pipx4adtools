@@ -31,7 +31,7 @@ def install_requirements():
 
 setup(
     name='pipx4adtools',
-    version='0.0.2',
+    version='0.0.3',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -62,7 +62,7 @@ setup(
             "forest-getlocalsid.py=src.start:start_getlocalsid",
             "forest-keytab.py=src.start:start_keytab",
             "forest-gettrustinfo.py=src.start:start_gettrustinfo",
-
+            "LAPSDumper.py=src.start:start_lapsdumper",
         ],
     },
     install_requires=install_requirements(),

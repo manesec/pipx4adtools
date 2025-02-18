@@ -27,12 +27,20 @@ pipx install git+https://github.com/manesec/pipx4adtools@tgssub
 $ pipx list
    package pipx4adtools 0.0.2, installed using Python 3.13.1
     - GPOwned.py
+    - LAPSDumper.py
     - LdapRelayScan.py
     - PetitPotam.py
     - addspn.py
     - dementor.py
     - dnstool.py
     - emailextract.py
+    - forest-frida_intercept.py
+    - forest-ftinfo.py
+    - forest-getftST.py
+    - forest-getlocalsid.py
+    - forest-gettrustinfo.py
+    - forest-keytab.py
+    - getUserSIDBinary.py
     - getnthash.py
     - gets4uticket.py
     - gettgtpkinit.py
@@ -50,8 +58,6 @@ $ pipx list
     - targetedKerberoast.py
     - windapsearch.py
     - wmiexec-pro.py
-   package pipx4adtools-sccm-ntlmrelayx 0.10.1.dev1+20250204.204706.8a1e232, installed using Python 3.13.1
-    - sccm-ntlmrelayx.py
 ```
 
 ## Install from source code 

@@ -16,3 +16,4 @@ recursive-include src/ntlmscan *
 recursive-include src/proxyshell *
 recursive-include src/tools4mane *.py
 recursive-include src/forest-trust-tools *
+recursive-include src/LAPSDumper *
