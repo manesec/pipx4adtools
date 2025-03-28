@@ -63,6 +63,7 @@ setup(
             "forest-keytab.py=src.start:start_keytab",
             "forest-gettrustinfo.py=src.start:start_gettrustinfo",
             "LAPSDumper.py=src.start:start_lapsdumper",
+            "dfscoerce.py=src.start:start_dfscoerce",
         ],
     },
     install_requires=install_requirements(),

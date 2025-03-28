@@ -55,3 +55,6 @@
 [submodule "src/LAPSDumper"]
 	path = src/LAPSDumper
 	url = https://github.com/n00py/LAPSDumper.git
+[submodule "src/DFSCoerce"]
+	path = src/DFSCoerce
+	url = https://github.com/Wh04m1001/DFSCoerce.git

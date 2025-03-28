@@ -204,3 +204,10 @@ def start_lapsdumper():
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
+
+# DFSCoerce
+def start_dfscoerce():
+    script_path = Path(__file__).resolve().parent / "DFSCoerce" / "dfscoerce.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
