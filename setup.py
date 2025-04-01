@@ -31,7 +31,7 @@ def install_requirements():
 
 setup(
     name='pipx4adtools',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -64,6 +64,7 @@ setup(
             "forest-gettrustinfo.py=src.start:start_gettrustinfo",
             "LAPSDumper.py=src.start:start_lapsdumper",
             "dfscoerce.py=src.start:start_dfscoerce",
+            "keytabextract.py=src.start:start_keytabextract",
         ],
     },
     install_requires=install_requirements(),

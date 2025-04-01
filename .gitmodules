@@ -58,3 +58,6 @@
 [submodule "src/DFSCoerce"]
 	path = src/DFSCoerce
 	url = https://github.com/Wh04m1001/DFSCoerce.git
+[submodule "src/KeyTabExtract"]
+	path = src/KeyTabExtract
+	url = https://github.com/sosdave/KeyTabExtract.git

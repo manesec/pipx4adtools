@@ -8,7 +8,6 @@ def start_pygpoabuse():
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
-
 # GPOwned
 def start_GPOwned():
     script_path = Path(__file__).resolve().parent / "GPOwned" / "GPOwned.py"
@@ -211,3 +210,12 @@ def start_dfscoerce():
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
+
+# KeyTabExtract
+def start_keytabextract():
+    script_path = Path(__file__).resolve().parent / "KeyTabExtract" / "keytabextract.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+
