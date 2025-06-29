@@ -14,6 +14,7 @@ def install_requirements():
     all_requirements.extend(read_requirements('src/LdapRelayScan/requirements.txt'))
     all_requirements.extend(read_requirements('src/targetedKerberoast/requirements.txt'))
     all_requirements.extend(read_requirements('src/PKINITtools/requirements.txt'))
+    all_requirements.extend(read_requirements('src/winrmexec/requirements.txt'))
 
     # ntlm_theft
     all_requirements.append("xlsxwriter")
@@ -26,6 +27,9 @@ def install_requirements():
 
     # forest-trust-tools
     all_requirements.append("frida")
+
+    # winrmexec
+    all_requirements.append("prompt_toolkit")
 
     return all_requirements
 
@@ -65,6 +69,8 @@ setup(
             "LAPSDumper.py=src.start:start_lapsdumper",
             "dfscoerce.py=src.start:start_dfscoerce",
             "keytabextract.py=src.start:start_keytabextract",
+            "winrmexec.py=src.start:start_winrmexec",
+            "evil_winrmexec.py=src.start:start_evil_winrmexec",
         ],
     },
     install_requires=install_requirements(),

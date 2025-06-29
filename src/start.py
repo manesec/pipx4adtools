@@ -211,11 +211,25 @@ def start_dfscoerce():
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
-# KeyTabExtract
+# keytabextract
 def start_keytabextract():
-    script_path = Path(__file__).resolve().parent / "KeyTabExtract" / "keytabextract.py"
+    script_path = Path(__file__).resolve().parent / "keytabextract" / "keytabextract.py"
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
+
+# winrmexec
+def start_winrmexec():
+    script_path = Path(__file__).resolve().parent / "winrmexec" / "winrmexec.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
+
+# evil_winrmexec
+def start_evil_winrmexec():
+    script_path = Path(__file__).resolve().parent / "winrmexec" / "evil_winrmexec.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)
 

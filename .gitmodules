@@ -61,3 +61,6 @@
 [submodule "src/KeyTabExtract"]
 	path = src/KeyTabExtract
 	url = https://github.com/sosdave/KeyTabExtract.git
+[submodule "src/winrmexec"]
+	path = src/winrmexec
+	url = https://github.com/ozelis/winrmexec.git
