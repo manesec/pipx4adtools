@@ -35,7 +35,7 @@ def install_requirements():
 
 setup(
     name='pipx4adtools',
-    version='0.0.4',
+    version='0.0.5',
     packages=find_packages(),
     entry_points={
         'console_scripts': [

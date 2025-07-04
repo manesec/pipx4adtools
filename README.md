@@ -21,19 +21,28 @@ pipx install git+https://github.com/manesec/pipx4adtools@relay-sccm
 pipx install git+https://github.com/manesec/pipx4adtools@tgssub
 ```
 
+If you are using `uv` tools :
+
+```
+uv tool install git+https://github.com/manesec/pipx4adtools
+uv tool install git+https://github.com/manesec/pipx4adtools@relay-sccm
+uv tool install git+https://github.com/manesec/pipx4adtools@tgssub
+```
+
 ## Tools
 
 ```
-$ pipx list
-   package pipx4adtools 0.0.2, installed using Python 3.13.1
+   package pipx4adtools 0.0.5, installed using Python 3.13.3
     - GPOwned.py
     - LAPSDumper.py
     - LdapRelayScan.py
     - PetitPotam.py
     - addspn.py
     - dementor.py
+    - dfscoerce.py
     - dnstool.py
     - emailextract.py
+    - evil_winrmexec.py
     - forest-frida_intercept.py
     - forest-ftinfo.py
     - forest-getftST.py
@@ -44,6 +53,7 @@ $ pipx list
     - getnthash.py
     - gets4uticket.py
     - gettgtpkinit.py
+    - keytabextract.py
     - krbrelayx.py
     - noPac.py
     - nopac_scanner.py
@@ -57,6 +67,7 @@ $ pipx list
     - pygpoabuse.py
     - targetedKerberoast.py
     - windapsearch.py
+    - winrmexec.py
     - wmiexec-pro.py
 ```
 
@@ -86,6 +97,8 @@ pipx uninstall pipx4adtools
 
 ```
 pipx upgrade pipx4adtools
+uv tool upgrade pipx4adtools
+
 # or
 pipx upgrade-all
 ```
