@@ -213,7 +213,7 @@ def start_dfscoerce():
 
 # keytabextract
 def start_keytabextract():
-    script_path = Path(__file__).resolve().parent / "keytabextract" / "keytabextract.py"
+    script_path = Path(__file__).resolve().parent / "KeyTabExtract" / "keytabextract.py"
     args = sys.argv[1:]
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
