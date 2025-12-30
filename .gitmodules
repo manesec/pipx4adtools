@@ -64,3 +64,6 @@
 [submodule "src/winrmexec"]
 	path = src/winrmexec
 	url = https://github.com/ozelis/winrmexec.git
+[submodule "src/wmiexec2"]
+	path = src/wmiexec2
+	url = https://github.com/ice-wzl/wmiexec2.git

@@ -15,6 +15,7 @@ def install_requirements():
     all_requirements.extend(read_requirements('src/targetedKerberoast/requirements.txt'))
     all_requirements.extend(read_requirements('src/PKINITtools/requirements.txt'))
     all_requirements.extend(read_requirements('src/winrmexec/requirements.txt'))
+    all_requirements.extend(read_requirements('src/wmiexec2/requirements.txt'))
 
     # ntlm_theft
     all_requirements.append("xlsxwriter")
@@ -35,7 +36,7 @@ def install_requirements():
 
 setup(
     name='pipx4adtools',
-    version='0.0.5',
+    version='0.0.6',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -71,6 +72,7 @@ setup(
             "keytabextract.py=src.start:start_keytabextract",
             "winrmexec.py=src.start:start_winrmexec",
             "evil_winrmexec.py=src.start:start_evil_winrmexec",
+            "wmiexec2.py=src.start:start_wmiexec2",
         ],
     },
     install_requires=install_requirements(),

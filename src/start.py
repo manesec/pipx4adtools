@@ -233,3 +233,9 @@ def start_evil_winrmexec():
     command = [sys.executable, str(script_path)] + args
     subprocess.run(command)
 
+# wmiexec2
+def start_wmiexec2():
+    script_path = Path(__file__).resolve().parent / "wmiexec2" / "wmiexec2.py"
+    args = sys.argv[1:]
+    command = [sys.executable, str(script_path)] + args
+    subprocess.run(command)

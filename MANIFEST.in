@@ -20,3 +20,4 @@ recursive-include src/LAPSDumper *
 recursive-include src/DFSCoerce *
 recursive-include src/KeyTabExtract *
 recursive-include src/winrmexec *
+recursive-include src/wmiexec2 *
