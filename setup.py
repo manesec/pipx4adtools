@@ -31,7 +31,7 @@ def install_requirements():
 
     # winrmexec
     all_requirements.append("prompt_toolkit")
-    all_requirements.append("setuptools")
+    all_requirements.append("setuptools==77.0.3")
 
     return all_requirements
 
