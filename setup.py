@@ -32,12 +32,13 @@ def install_requirements():
     # winrmexec
     all_requirements.append("prompt_toolkit")
     all_requirements.append("setuptools==77.0.3")
+    all_requirements.append("dsinternals")
 
     return all_requirements
 
 setup(
     name='pipx4adtools',
-    version='0.0.6',
+    version='0.0.7',
     packages=find_packages(),
     entry_points={
         'console_scripts': [

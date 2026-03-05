@@ -24,7 +24,7 @@ pipx install git+https://github.com/manesec/pipx4adtools@tgssub
 If you are using `uv` tools :
 
 ```
-uv tool install git+https://github.com/manesec/pipx4adtools
+uv tool install git+https://github.com/manesec/pipx4adtools 
 uv tool install git+https://github.com/manesec/pipx4adtools@relay-sccm
 uv tool install git+https://github.com/manesec/pipx4adtools@tgssub
 ```
